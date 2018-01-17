@@ -1,0 +1,3 @@
+git+https://github.com/furqan-shakoor/tippi-link.git
+rumps
+py2app
