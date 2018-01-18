@@ -5,7 +5,7 @@ Tested on MacOS High Sierra and TP-Link TL-WR720N router with firmware version 4
 
 ![Screenshot - Menu](screenshots/ss1.png)
 
-![Screenshot - Clicked](screenshots/ss1.png)
+![Screenshot - Clicked](screenshots/ss2.png)
 
 ### Installation
 - Use 'sharfoo.app' in the build folder
