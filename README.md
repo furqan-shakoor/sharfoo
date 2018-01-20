@@ -8,7 +8,7 @@ Tested on MacOS High Sierra and TP-Link TL-WR720N router with firmware version 4
 ![Screenshot - Clicked](screenshots/ss2.png)
 
 ### Installation
-- Use 'sharfoo.app' in the build folder
+- Use 'sharfoo.app' in the dist folder
 - Copy it to your applications folder
 - Set sharfoo to run at startup via System Preferences > Users &amp; Groups > Login Items
 - When you run it for the first time you will be guided how to enter your router's admin credentials

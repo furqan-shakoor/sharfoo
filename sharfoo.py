@@ -83,6 +83,7 @@ def _are_credentials_valid(username, password, host):
 class Sharfoo(rumps.App):
     def __init__(self):
         super(Sharfoo, self).__init__("Initializing")
+        self.menu = ["Restart router"]
         self.connected_mac = set()
         self.mac_to_name = dict()
         self.mac_to_ip = dict()
@@ -110,7 +111,6 @@ class Sharfoo(rumps.App):
         self.connected_mac = set()
         self.mac_to_ip = dict()
         self.mac_to_name = dict()
-
 
     @rumps.timer(5)
     def update_title(self, _):
@@ -163,6 +163,11 @@ class Sharfoo(rumps.App):
             print e
             self.title = "<ERROR 101>"
 
+    @rumps.clicked("Restart router")
+    def restart_router(self, _):
+        print "Restarting router"
+        self.title = "Restarting router"
+        self.tl.restart_router()
 
 if __name__ == "__main__":
     app = Sharfoo().run()
