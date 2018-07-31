@@ -21,7 +21,7 @@ Tested on MacOS High Sierra and TP-Link TL-WR720N router with firmware version 4
 ### Dependencies
 This tool uses:
 - [Rumps](https://github.com/jaredks/rumps)
-- [Tippi-Link, a scraper the TP-Link admin portal](https://github.com/furqan-shakoor/tippi-link)
+- [Tippi-Link, a scraper for the TP-Link admin portal](https://github.com/furqan-shakoor/tippi-link)
 
 
 ### Contribution
